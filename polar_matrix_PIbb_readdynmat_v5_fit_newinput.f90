@@ -48,7 +48,8 @@ program polar_matrix_PIbb
   integer :: i, ii, j, k, kk, ip, jp, n, m, alpha, beta
   integer :: ilat, jlat, indx, meig, extra
   integer :: info, lwork, dimwrk
-  
+  integer :: LAMMPSunits, scaling_amplitude, scaling_tauks
+
   real(kind=8) :: tmp1, tmp2, dw, w, dEe, tmp1b, tmp2b
   real(kind=8) :: X, der1, der2, Etot, nrm
   real(kind=8) :: sumxx, sumxy, sumxz, sumyy, sumyz, sumzz
